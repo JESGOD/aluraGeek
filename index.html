@@ -5,26 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="modules/navbar/navbar.css" />
+    <link rel="stylesheet" href="modules/hero/hero.css" />
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Sans:wght@400;500;700&family=Montserrat:wght@100;200;400;500;800&family=Poltawski+Nowy:wght@400;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Sans:wght@400;500;700&family=Montserrat:wght@100;200;400;500;800&family=Poltawski+Nowy:wght@400;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- fin google fonts -->
     <title>Document</title>
   </head>
-  <body class="container">
+  <body class="">
     <header class="header">
-      <nav class="nav">
+      <!-- navbar -->
+      <nav class="nav container">
         <span class="container__logo"
           ><img class="img__logo" src="assets/logos/Logo.png" alt="" /></span
-        ><span class="container__login-btn">
-          <a class="login__btn" href="#">Login</a>
+        ><span class="container-btn">
+          <a class="btn" href="#">Login</a>
         </span>
         <span class="container__searc-icon"
           ><svg
-          class="search__icon"
+            class="search__icon"
             width="46"
             height="46"
             fill="none"
@@ -40,6 +45,18 @@
           </svg>
         </span>
       </nav>
+      <!-- fin navbar -->
+      <!-- banner -->
+      <section class="hero">
+        <section class="container">
+          <h2 class="title">Febrero promocional</h2>
+          <p class="subtitle">Productos seleccionados con 33% de descuento</p>
+          <span class="container-btn">
+            <a class="btn--banner" href="#">Ver Consolas</a>
+          </span>
+        </section>
+      </section>
+      <!-- fin banner -->
     </header>
   </body>
 </html>

@@ -1,0 +1,54 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100vw;
+  height: 200px;
+  background-image: url("/../assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0px 0px 300px 20px rgba(0,0,0,0.75);
+  object-fit: cover;
+  color: white;
+}
+
+/* btn banner */
+
+.btn--banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border: 2px solid var(--bgcolor-btn);
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  font-family: inherit;
+}
+.btn--banner::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bgcolor-btn);
+  transform: translateX(0);
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.btn--banner:hover::before {
+  transform: translateX(-100%);
+}
+
+/* fin btn banner */
