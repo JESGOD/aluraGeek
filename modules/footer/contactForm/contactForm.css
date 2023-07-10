@@ -1,3 +1,6 @@
+.container__form{
+  margin: 3rem 0;
+}
 .container__img-form{
   display: none;
   max-width: 100%;
@@ -11,28 +14,22 @@
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  border: 2px var(--bgcolor-btn) solid;
+  margin-top: 2rem;
   border-radius: 5px;
-  padding: 1rem 0;
+  padding: 3rem 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .input-group {
   position: relative;
-
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem; */
+  width: 80%;
+  background-color: rgba(97, 196, 235, 0.432);
+  border-radius: 5px;
 }
 
 .input__form {
-  /* background-color: white;
   border: none;
-  border-bottom: 1px solid rgb(0, 0, 0);
-  text-align: center;
-  margin-top: 2rem; */
-  border: none;
-  border-bottom: solid 1.5px rgb(7, 7, 7);
-  
+  width: 87%;
+  /* border-bottom: solid 1.5px rgb(7, 7, 7); */
   background: none;
   padding: 1rem;
   font-size: 1rem;
@@ -43,11 +40,14 @@
   resize: none;
   outline: none;
   padding: 1rem;
+  background-color: rgba(97, 196, 235, 0.432);
+  border: none;
+  border-radius: 5PX;
 }
 
 .label__form{
   position: absolute;
-  left: 0px;
+  left: 1rem;
   color: #00000073;
   pointer-events: none;
   transform: translateY(1rem);
@@ -63,13 +63,13 @@
 .input__form:focus,
 input:valid {
   outline: none;
-  border-bottom: 1.5px solid #1a73e8;
+  /* border-bottom: 1.5px solid #1a73e8; */
 }
 
 .input__form:focus ~ label,
 input:valid ~ label {
   transform: translateY(-85%) scale(0.8);
-  background-color: #1a73e83f;
+  /* background-color: #1a73e83f; */
   padding: 0 0.2em;
   color: #2196f3;
 }
