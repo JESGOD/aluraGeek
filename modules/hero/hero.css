@@ -4,7 +4,7 @@
   justify-content: end;
   width: 100vw;
   height: 200px;
-  background-image: url("/../assets/banner.jpg");
+  background-image: url("../../assets/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
