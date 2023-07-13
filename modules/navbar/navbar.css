@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .img__logo {
   width: 100%;
@@ -17,13 +18,50 @@
 }
 /* fin navbar logo */
 
-/* search icon */
-.container__searc-icon {
+/* search icon and input search */
+.container__search {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
-/* .search__icon {
-  width: 45%;
-} */
+.input__search {
+  position: relative;
+  width: 100%;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.096);
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem;
+}
+.search__icon {
+  position: absolute;
+  right: 2px;
+}
+
 /* fin search icon */
+
+/* media queries */
+@media screen and (min-width: 768px) {
+  .container__logo {
+    order: 0;
+  }
+  .container__searc-icon {
+    order: 1;
+  }
+  .container-btn {
+    order: 2;
+  }
+}
+/* end media queries */
+
+@media screen and (min-width:768px) {
+  .container__search{
+    width: 350px;
+  }
+  .input__search{
+    display: block;
+  }
+
+}

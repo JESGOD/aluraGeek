@@ -3,18 +3,9 @@
 }
 :root {
   --bgcolor-btn: #2a7ae4;
-  /* contact form */
-  --white: #afafaf;
-  --red: #e31b23;
-  --bodyColor: #292a2b;
-  --borderFormEls: hsl(0, 0%, 10%);
-  --bgFormEls: hsl(0, 0%, 14%);
-  --bgFormElsFocus: hsl(0, 7%, 20%);
-  /*end contact form */
 }
 body {
   font-family: "Raleway", sans-serif;
-  
 }
 .container {
   margin: 1rem 1rem;
@@ -79,3 +70,11 @@ body {
   color: #2a7ae4;
 }
 /* fin text */
+
+/* media queries */
+@media screen and (min-width: 768px) {
+  .container{
+    margin: 1rem 3rem;
+  }
+}
+/* end media queries */

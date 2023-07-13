@@ -115,7 +115,7 @@ input:valid ~ label {
   transform: translateX(5em);
 }
 
-butt
+
 .btn__send:active {
   transform: scale(0.95);
 }
@@ -131,3 +131,20 @@ butt
 }
 
 /* fin send button */
+
+/* media queries */
+@media screen and (min-width:500px) {
+  
+  .form-contact{
+    max-width: 450px;
+    margin: 2rem auto;
+  }
+  /* .container__img-form{
+    display: block;
+    max-width: 100%;
+  }
+  .img__form{
+    width: 50%;
+  } */
+}
+/* end media queries */
