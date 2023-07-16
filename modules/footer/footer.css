@@ -18,7 +18,7 @@ footer {
 }
 
 .container__logo-footer {
-  width: 7rem;
+  width: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,4 +54,11 @@ footer {
   .options-footer{
     width: 50%;
   }
+  /* .options-footer {
+  
+    text-align: initial;
+    
+  } */
 }
+
+
