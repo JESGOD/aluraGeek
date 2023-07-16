@@ -55,13 +55,13 @@ body {
 
 /* text */
 .title {
-  font-size: 1.5rem;
+  font-size: clamp(1.2rem,8vw,1.5rem);
   font-weight: 700;
   margin: 0.4em 0;
 }
 .subtitle {
   
-  font-size: .9rem;
+  font-size: clamp(.9rem,6vw,1.2rem);
   font-weight: 600;
   margin: 0.6em 0;
 }
