@@ -1,0 +1,104 @@
+.container__form--login{
+  margin: 0 auto;
+  padding: 5rem 0;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  }
+  .form__group--login{
+    width: 100%;
+  }
+  .title--login{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0.4em 0;
+  }
+  .subtitle--login{
+    font-size: clamp(.9rem,4vw,1.2rem);
+    font-weight: 400;
+    margin: 0.6em 0;
+  }
+  .container__img-form--login{
+    display: none;
+    max-width: 100%;
+  }
+  .img__form--login{
+    width: 50%;
+  }
+  .form-contact--login {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    /* gap: 1rem; */
+    margin: 1rem auto;
+    border-radius: 5px;
+    padding: 3rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+  }
+  .input-group--login {
+    position: relative;
+    width: 80%; */
+  
+  }
+  
+  .input__form--login {
+    border: none;
+    width: calc(100% - 35px);
+    border: solid 1.5px #2a7ae4;
+    border-radius: 5px;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #000000;
+    transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .label__form--login{
+    position: absolute;
+    left: 1rem;
+    color: #00000073;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .label__form--login::after{
+    content: "*";
+    color:red;
+    font-size: 30px;
+    
+  
+  }
+  .input__form:focus--login,
+  input:valid {
+    outline: none;
+    border-bottom: 1.5px solid #1a73e8;
+  }
+  
+  .input__form--login:focus ~ label,
+  input:valid ~ label {
+    transform: translateY(-85%) scale(0.8);
+    /* background-color: #1a73e83f;
+    border-radius: 5px; */
+    padding: 0 0.2em;
+    color: #2196f3;
+  }
+  /* media queries */
+  @media screen and (min-width:768px) {
+    
+    .form-contact--login{
+      max-width: 600px;
+      /* margin: 0 auto;
+      padding: 1rem; */
+    }
+    /* .container__form{
+      
+      width: 50%;
+    } */
+  }
+  /* end media queries */
