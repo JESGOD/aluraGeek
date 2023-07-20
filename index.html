@@ -44,32 +44,37 @@
         ><span class="container-btn">
           <a class="btn" href="modules/screens/login/login.html">Login</a>
         </span>
-        <span class="container__search"
-          >
-          <input type="text" class="input__search" placeholder="¿Que deseas buscar?">
-          <svg
-            class="search__icon"
-            width="46"
-            height="46"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z"></path>
-            <path d="m21 21-6-6"></path>
-          </svg>
-        </span>
+        <span class="container__search"><input
+          type="text"
+          class="input__search"
+          placeholder="¿Que deseas buscar?"
+        />
+        <svg
+          class="search__icon"
+          width="46"
+          height="46"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z"></path>
+          <path d="m21 21-6-6"></path>
+        </svg></span>
+          
+        
       </nav>
       <!-- fin navbar -->
       <!-- banner -->
       <section class="hero">
         <section class="container">
           <h2 class="title--hero">Febrero promocional</h2>
-          <p class="subtitle--hero">Productos seleccionados con 33% de descuento</p>
+          <p class="subtitle--hero">
+            Productos seleccionados con 33% de descuento
+          </p>
           <span class="container-btn">
             <a class="btn--banner" href="#">Ver Consolas</a>
           </span>
@@ -82,7 +87,11 @@
       <section class="container-products">
         <div class="text-products">
           <h2 class="title">Star Wars</h2>
-          <p class="subtitle--continer-products">ver todo</p>
+          <a
+            class="subtitle--continer-products"
+            href="modules/screens/allProducts/allProducts.html"
+            >ver todo</a
+          >
         </div>
         <div class="container-cards-product">
           <!-- swiper -->
@@ -280,7 +289,10 @@
       <section class="container-products">
         <div class="text-products">
           <h2 class="title">Cosnolas</h2>
-          <p class="subtitle--continer-products">ver todo</p>
+          <a
+            class="subtitle--continer-products"
+            href="modules/screens/allProducts/allProducts.html"
+            >ver todo</a>
         </div>
         <div class="container-cards-product">
           <!-- swiper -->
@@ -477,7 +489,10 @@
       <section class="container-products">
         <div class="text-products">
           <h2 class="title">Diversos</h2>
-          <p class="subtitle--continer-products">ver todo</p>
+          <a
+            class="subtitle--continer-products"
+            href="modules/screens/allProducts/allProducts.html"
+            >ver todo</a>
         </div>
         <div class="container-cards-product">
           <!-- swiper -->
@@ -670,11 +685,10 @@
         </div>
       </section>
       <!--fin Diversos -->
-      
     </main>
     <footer class="footer">
       <section class="footer-content container">
-        <div class=" options-footer">
+        <div class="options-footer">
           <span class="container__logo-footer"
             ><img class="img__logo" src="assets/logos/Logo.png" alt=""
           /></span>
@@ -688,66 +702,65 @@
           </ul>
         </div>
         <!-- contact form -->
-      <section class="container__form">
-        <h2 class="title--form">Habla con nosotros</h2>
-        <div class="form__group">
-          <div class="container__img-form">
-            <img
-              src="assets/comunicateConNosotros.svg"
-              alt=""
-              class="img__form"
-            />
-          </div>
-          <form action="" class="form-contact">
-            <!-- <section class="input-group">
+        <section class="container__form">
+          <h2 class="title--form">Habla con nosotros</h2>
+          <div class="form__group">
+            <div class="container__img-form">
+              <img
+                src="assets/comunicateConNosotros.svg"
+                alt=""
+                class="img__form"
+              />
+            </div>
+            <form action="" class="form-contact">
+              <!-- <section class="input-group">
               <input class="input__form" type="email" required />
               <label for="" class="label__form">Email</label>
             </section> -->
 
-            <section class="input-group">
-              <input class="input__form" type="text" name="nombre" required />
-              <label for="nombre" class="label__form">Nombre</label>
-            </section>
-            <!-- <section class="input-group">
+              <section class="input-group">
+                <input class="input__form" type="text" name="nombre" required />
+                <label for="nombre" class="label__form">Nombre</label>
+              </section>
+              <!-- <section class="input-group">
               <input class="input__form" type="text" name="asunto" required />
               <label for="asunto" class="label__form">Asunto</label>
             </section> -->
 
-            <textarea
-              class="input-form__textarea"
-              name="mensaje"
-              id=""
-              cols="0"
-              rows="3"
-              placeholder="Ingrese su mensaje aqui"
-              required
-            ></textarea>
-            <button class="btn__send">
-              <div class="svg-wrapper-1">
-                <div class="svg-wrapper">
-                  <svg
-                    height="24"
-                    width="24"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M0 0h24v24H0z" fill="none"></path>
-                    <path
-                      d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
+              <textarea
+                class="input-form__textarea"
+                name="mensaje"
+                id=""
+                cols="0"
+                rows="3"
+                placeholder="Ingrese su mensaje aqui"
+                required
+              ></textarea>
+              <button class="btn__send">
+                <div class="svg-wrapper-1">
+                  <div class="svg-wrapper">
+                    <svg
+                      height="24"
+                      width="24"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path
+                        d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
                 </div>
-              </div>
-              <span>enviar</span>
-            </button>
-          </form>
-        </div>
+                <span>enviar</span>
+              </button>
+            </form>
+          </div>
+        </section>
+        <!--fin contact form -->
       </section>
-      <!--fin contact form -->
-      </section>
-      
-      
+
       <div class="footer-bottom">
         <p class="subtitle">©Copyright 2023 | Esteban Muñoz</p>
       </div>
