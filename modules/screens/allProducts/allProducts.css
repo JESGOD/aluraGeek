@@ -47,4 +47,13 @@
     justify-items:center;
     align-items: center;
     margin: 1rem 0;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .header__products{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
