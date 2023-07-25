@@ -1,0 +1,23 @@
+.container-btn--headerAdd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+   text-align: center;
+}
+.btn--headerAdd{
+  display: inline-block;
+  width: 100%;
+  padding: 0.6rem 0.6rem;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  border: 2px solid var(--bgcolor-btn);
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  font-family: inherit;
+}
