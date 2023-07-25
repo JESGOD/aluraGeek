@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../../reset.css" />
-    <link rel="stylesheet" href="../../../normalize.css">
+    <link rel="stylesheet" href="../../../normalize.css" />
     <link rel="stylesheet" href="../../navbar/navbar.css" />
     <link rel="stylesheet" href="addProduct.css" />
-    <link rel="stylesheet" href="../../footer/footer.css">
-    <link rel="stylesheet" href="../login/loginFormFooter.css">
-    <!-- <link rel="stylesheet" href="../login/loginForm.css"> -->
+    <link rel="stylesheet" href="../../footer/footer.css" />
+    <link rel="stylesheet" href="../login/loginFormFooter.css" />
+    <link rel="stylesheet" href="../login/loginForm.css" />
     <title>add product</title>
   </head>
   <body>
@@ -23,9 +23,7 @@
             src="../../../assets/logos/Logo.png"
             alt="" /></span
         ><span class="container-btn--headerAdd">
-          <a class="btn--headerAdd" href="../login/login.html"
-            >Menú administrador</a
-          >
+          <a class="btn--headerAdd" href="#">Menú administrador</a>
         </span>
         <span class="container__search">
           <input
@@ -52,6 +50,106 @@
       </nav>
       <!-- fin navbar -->
     </header>
+    <main class="main">
+      <section class="container__form--login">
+        <h2 class="title--login">Agregar nuevo producto</h2>
+        <div class="form__group--login">
+          <div class="container__img-form--login">
+            <img
+              src="assets/comunicateConNosotros.svg"
+              alt=""
+              class="img__form"
+            />
+          </div>
+          <form action="" class="form-contact--login">
+            <section class="input-group--login">
+              <input
+                class="input__form--login input-file"
+                type="file"
+                name="addUrl"
+                accept="image/png, .jpeg, .jpg, image/gif"
+                required
+                
+              />
+              <label for="addUrl" class="label__form--addP"
+                >URL de la imagen</label
+              >
+            </section>
+
+            <section class="input-group--login">
+              <select name="" id="" class="categoria-list" required>
+                <option value="Star Wars">Star Wars</option>
+                <option value="Consoloas">Consolas</option>
+                <option value="Diversos">Diversos</option> 
+              </select>
+
+              <input
+                class="input__form--login"
+                type="text"
+                name="categoria"
+                disabled
+              />
+              <label for="categoria" class="label__form--addP"
+                >Categoria</label
+              >
+            </section>
+            <section class="input-group--login">
+              <input
+                class="input__form--login"
+                type="text"
+                name="contrase;a"
+                required
+              />
+              <label for="contrase;a" class="label__form--addP"
+                >Nombre del producto</label
+              >
+            </section>
+            <section class="input-group--login">
+              <input
+                class="input__form--login"
+                type="text"
+                name="contrase;a"
+                required
+              />
+              <label for="contrase;a" class="label__form--addP"
+                >Precio del producto</label
+              >
+            </section>
+            <section class="input-group--login">
+              <textarea
+                class="input-form__textarea input__form--login"
+                name="mensaje"
+                id=""
+                cols="0"
+                rows="3"
+                placeholder="Descripcion del producto"
+                required
+              ></textarea>
+            </section>
+
+            <button class="btn__send">
+              <div class="svg-wrapper-1">
+                <div class="svg-wrapper">
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <span>Agregar</span>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
     <footer class="footer">
       <section class="footer-content container--footer-login">
         <div class="options-footer">

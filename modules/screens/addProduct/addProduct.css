@@ -1,11 +1,11 @@
-.container-btn--headerAdd{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-   text-align: center;
+.container-btn--headerAdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  text-align: center;
 }
-.btn--headerAdd{
+.btn--headerAdd {
   display: inline-block;
   width: 100%;
   padding: 0.6rem 0.6rem;
@@ -20,4 +20,27 @@
   overflow: hidden;
   z-index: 1;
   font-family: inherit;
+}
+.label__form--addP {
+  position: absolute;
+  left: 1rem;
+  color: #00000073;
+  pointer-events: none;
+  transform: translateY(-1.5rem);
+  transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-file {
+  background-color: red;
+  border: none;
+}
+.categoria-list {
+  position: absolute;
+  width: calc(100% - 35px);
+  left: 1rem;
+  color: #000000;
+  transform: translateY(1rem);
+  transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: rgb(255, 255, 255) solid 1px;
+  background: none;
+  outline: none;
 }
