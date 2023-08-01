@@ -43,7 +43,9 @@ return card
         productos.appendChild(newLine)
         console.log(newLine);
     });
-}).catch(error => alert("error")) */
+}).catch(error => alert("error")) */ 
+
+// NOTA agregar a la db el campo categoria y hacer que el js agregue los datos de las cards por dicha categoria para que no se agreguen todas las cards en una sola categoria y las demas queden vacias
 productServices
   .listProducts()
   .then((data) => {
