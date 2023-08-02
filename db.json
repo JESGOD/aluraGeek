@@ -1,76 +1,130 @@
 {
-    "producto":[
-        {"id":1,
-        "nombre":"Figura Star Wars",
-        "precio":"$159.29",
-        "imageURL":"assets/starWars/unsplash_KeGToDVN0l4.png"},
-        {"id":2,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":3,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":4,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":5,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":6,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":7,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":8,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":9,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":10,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":11,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":12,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":13,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":14,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":15,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":16,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":17,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""},
-        {"id":18,
-        "nombre":"",
-        "precio":"",
-        "imageURL":""}
+    "producto": [
+        {
+            "id": 1,
+            "nombre": "Figura Star Wars",
+            "precio": "$159.29",
+            "imageURL": "assets/starWars/unsplash_KeGToDVN0l4.png",
+            "categoria": "Star Wars"
+        },
+        {
+            "id": 2,
+            "nombre": "Funko pop Star Wars",
+            "precio": "$234.41",
+            "imageURL": "assets/starWars/unsplash_R8L1l9RN198.png",
+            "categoria": "Star Wars"
+        },
+        {
+            "id": 3,
+            "nombre": "Capa Star Wars",
+            "precio": "$329.49",
+            "imageURL": "assets/starWars/unsplash_1VV1MRafd7A.png",
+            "categoria":"Star Wars"
+        },
+        {
+            "id": 4,
+            "nombre": "Traje Star Wars",
+            "precio": "$499.49",
+            "imageURL": "assets/starWars/unsplash_4OHkK555s1A.png",
+            "categoria":"Star Wars"
+        },
+        {
+            "id": 5,
+            "nombre": "Taza Star Wars",
+            "precio": "$100.49",
+            "imageURL": "assets/starWars/unsplash_6FDXGY9J6y4.png",
+            "categoria":"Star Wars"
+        },
+        {
+            "id": 6,
+            "nombre": "Lego Star Wars",
+            "precio": "$299.49",
+            "imageURL": "assets/starWars/unsplash_epRFE_hBNjo.png",
+            "categoria":"Star Wars"
+        },
+        {
+            "id": 7,
+            "nombre": "Nintendo Entertainment",
+            "precio": "$360.24",
+            "imageURL": "assets/consolas/unsplash_ZV7lnfyQLmA.png",
+            "categoria":"Consolas"
+        },
+        {
+            "id": 8,
+            "nombre": "Play Station 5",
+            "precio": "$529.49",
+            "imageURL": "assets/consolas/unsplash_caNzzoxls8Q.png",
+            "categoria":"Consolas"
+        },
+        {
+            "id": 9,
+            "nombre": "Game Boy",
+            "precio": "$99.85",
+            "imageURL": "assets/consolas/unsplash_k-xYhI3-gJM.png",
+            "categoria":"Consolas"
+        },
+        {
+            "id": 10,
+            "nombre": "Switch",
+            "precio": "$200.19",
+            "imageURL": "assets/consolas/unsplash_wa5z9o9fgjw.png",
+            "categoria":"Consolas"
+        },
+        {
+            "id": 11,
+            "nombre": "XBOX ONE",
+            "precio": "$445.44",
+            "imageURL": "assets/consolas/unsplash_Zjn4dT993-g.png",
+            "categoria":"Consolas"
+        },
+        {
+            "id": 12,
+            "nombre": "Contro XBOX ONE",
+            "precio": "$60.29",
+            "imageURL": "assets/consolas/unsplash_0POwK6iAiRQ.png",
+            "categoria":"Consolas"
+        },
+        {
+            "id": 13,
+            "nombre": "Camisa Game Boy",
+            "precio": "$20.25",
+            "imageURL": "assets/diversos/unsplash_bUgaIaZysH0.png",
+            "categoria":"Diversos"
+        },
+        {
+            "id": 14,
+            "nombre": "Figura Sonic",
+            "precio": "$50.99",
+            "imageURL": "assets/diversos/unsplash_sYVY_ZKwaxU.png",
+            "categoria":"Diversos"
+        },
+        {
+            "id": 15,
+            "nombre": "Camisa Anime",
+            "precio": "$19.29",
+            "imageURL": "assets/diversos/unsplash_fMP-oCze3AY.png",
+            "categoria":"Diversos"
+        },
+        {
+            "id": 16,
+            "nombre": "Reloj Despertador",
+            "precio": "$59.87",
+            "imageURL": "assets/diversos/unsplash_jMT6BrgBuXU.png",
+            "categoria":"Diversos"
+        },
+        {
+            "id": 17,
+            "nombre": "Gafas VR",
+            "precio": "$520.16",
+            "imageURL": "assets/diversos/unsplash_MxVkWPiJALs.png",
+            "categoria":"Diversos"
+        },
+        {
+            "id": 18,
+            "nombre": "Traje Picachu",
+            "precio": "$145.23",
+            "imageURL": "assets/diversos/unsplash_r27umXAelDc.png",
+            "categoria":"Diversos"
+        }
     ]
 }
