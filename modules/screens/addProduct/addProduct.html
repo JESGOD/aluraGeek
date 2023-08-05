@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="../../footer/footer.css" />
     <link rel="stylesheet" href="../login/loginFormFooter.css" />
     <link rel="stylesheet" href="../login/loginForm.css" />
+    <!-- uuid script (agregar id's a los objetos de la db) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <!-- end uuid script (agrega id's a los objetos de la db) -->
+    <!-- controller and services scrots -->
+    <script src="../../../controllers/registerProduct.controller.js" type="module" defer></script>
+    <!--end controller and services scrots -->
     <title>add product</title>
   </head>
   <body>
@@ -61,7 +67,7 @@
               class="img__form"
             />
           </div>
-          <form action="" class="form-contact--login">
+          <form action="" class="form-contact--login" data-form>
             <section class="input-group--login">
               <input
                 class="input__form--login input-file"
@@ -69,7 +75,7 @@
                 name="addUrl"
                 accept="image/png, .jpeg, .jpg, image/gif"
                 required
-                
+                data-imgUrl
               />
               <label for="addUrl" class="label__form--addP"
                 >URL de la imagen</label
@@ -77,9 +83,9 @@
             </section>
 
             <section class="input-group--login">
-              <select name="" id="" class="categoria-list" required>
+              <select name="" id="" class="categoria-list" required data-catergoria>
                 <option value="Star Wars">Star Wars</option>
-                <option value="Consoloas">Consolas</option>
+                <option value="Consolas">Consolas</option>
                 <option value="Diversos">Diversos</option> 
               </select>
 
@@ -99,6 +105,7 @@
                 type="text"
                 name="contrase;a"
                 required
+                data-productName
               />
               <label for="contrase;a" class="label__form--addP"
                 >Nombre del producto</label
@@ -110,6 +117,7 @@
                 type="text"
                 name="contrase;a"
                 required
+                data-price
               />
               <label for="contrase;a" class="label__form--addP"
                 >Precio del producto</label
@@ -124,6 +132,7 @@
                 rows="3"
                 placeholder="Descripcion del producto"
                 required
+                data-description
               ></textarea>
             </section>
 

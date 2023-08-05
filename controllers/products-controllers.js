@@ -19,7 +19,7 @@ const newProduct = (nombre, precio, imageURL, id) => {
       <p class="text-title subtitle">${nombre}</p>
     </div>
     <div class="card-footer">
-      <span class="text-title title">${precio}</span>
+      <span class="text-title title">$${precio}</span>
       <div class="card-button">
         <svg class="svg-icon" viewBox="0 0 20 20">
           <path
@@ -57,7 +57,7 @@ const newAllProduct = (nombre, precio, imageURL, id) => {
   <p class="text-title subtitle">${nombre}</p>
 </div>
 <div class="card-footer">
-  <span class="text-title title">${precio}</span>
+  <span class="text-title title">$${precio}</span>
   <div class="card-button">
     <svg class="svg-icon" viewBox="0 0 20 20">
       <path
