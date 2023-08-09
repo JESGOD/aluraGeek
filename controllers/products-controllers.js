@@ -95,7 +95,7 @@ productServices.listProducts().then((data) => {
     }
 
   });
-})/* .catch(error => alert("error")) */
+}).catch(error => alert("API no disponible")) 
 
 
 productServices.listProducts().then(data =>{
@@ -108,4 +108,4 @@ productServices.listProducts().then(data =>{
     console.log(allProducts);
     
   })
-})
+})/* .catch(error => alert("error al insertar el producto"))  */
